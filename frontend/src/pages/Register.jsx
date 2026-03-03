@@ -17,7 +17,7 @@ function Register() {
         setError('');
 
         try {
-            await axios.post('http://localhost:5000/api/auth/register', {
+            await axios.post('https://blog-app-x4eb.onrender.com', {
                 username,
                 email,
                 password
